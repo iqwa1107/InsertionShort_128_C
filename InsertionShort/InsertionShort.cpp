@@ -78,6 +78,7 @@ void display()
 	cout << endl;
 
 }
+
 int main()
 {
 	input(); // memanggil display 
