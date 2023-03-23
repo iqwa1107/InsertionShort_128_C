@@ -22,8 +22,32 @@ void input()
 		}
 
 	}
+	cout << endl;                              // membuat jarak perbaris program
+	cout << "======================" << endl;  // membuat tampilan susunan data element aray
+	cout << "Masukan Element Aray" << endl;
+	cout << "======================" << endl;
+
+	for (int i = 0; i < n; i++)
+	{
+		cout << "data ke-n" << (i + 1) << ": ";
+		cin >> arr[i];
+	}
 }
-cout << endl;                              // membuat jarak perbaris program
-cout << "======================" << endl;  // membuat tampilan susunan data element aray
-cout << "Masukan Element Aray"  << endl;
-cout << "======================" << endl;
+// prosedure insertionsort
+void insertionshort()
+{
+	int temp; // membuat variable daya temporer atau penyimpanan sementara 
+	int j; // membuat variable j sebagai panda 
+
+	for (int i = 1; i < n; i++) // membuat loping dengan i di mulai dari 1 hingga n-1
+	{
+		temp = arr[i]; 
+		j = i - 1;
+
+		while (j >= 0 && arr[j] > temp)
+ 		{
+			arr[j + 1] = arr[j];
+			j--;
+		}
+	}
+}
