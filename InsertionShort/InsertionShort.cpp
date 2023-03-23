@@ -41,13 +41,23 @@ void insertionshort()
 
 	for (int i = 1; i < n; i++) // membuat loping dengan i di mulai dari 1 hingga n-1
 	{
-		temp = arr[i]; 
+		temp = arr[i];
 		j = i - 1;
 
 		while (j >= 0 && arr[j] > temp)
- 		{
+		{
 			arr[j + 1] = arr[j];
 			j--;
 		}
+
+		arr[j + 1] = temp;
+
+		cout << endl;
+		cout << "\nPass" << i << ": ";
+		for (int k = 0); k < n; k++)
+		{
+			cout << arr[k] << n " "; // output ke layat
+		}
+
 	}
 }
