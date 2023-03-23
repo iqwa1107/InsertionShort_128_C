@@ -54,9 +54,9 @@ void insertionshort()
 
 		cout << endl;
 		cout << "\nPass" << i << ": ";
-		for (int k =0 ; k < n; k++);
+		for (int k =0 ; k < n; k++)
 		{
-			cout << arr[k] << n " "; // output ke layat
+			cout << arr[k] << n " "  // output ke layat
 		}
 
 	}
@@ -78,4 +78,9 @@ void display()
 	cout << endl;
 
 }
-
+int main()
+{
+	input(); // memanggil display 
+	insertionshort(); // memanggil insertionshort
+	display(); // emamnggil display
+}
