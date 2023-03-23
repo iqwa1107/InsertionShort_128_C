@@ -54,10 +54,21 @@ void insertionshort()
 
 		cout << endl;
 		cout << "\nPass" << i << ": ";
-		for (int k = 0); k < n; k++)
+		for (int k =0); k < n; k++);
 		{
 			cout << arr[k] << n " "; // output ke layat
 		}
 
 	}
+}
+
+void display()
+{
+	cout << endl;
+	cout << "TOTAL ELEMENT MOVEMENT" << n - 1 << endl;
+	cout << "\n======================" endl;
+	cout << "EELEMENT ARRAY YANG TELAH TERSUSUN" << endl;
+	cout << "========================" endl;
+
+	for (int j = 0; j < n; j+_)
 }
