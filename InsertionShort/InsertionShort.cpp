@@ -66,9 +66,15 @@ void display()
 {
 	cout << endl;
 	cout << "TOTAL ELEMENT MOVEMENT" << n - 1 << endl;
-	cout << "\n======================" endl;
+	cout << "\n======================" << endl;
 	cout << "EELEMENT ARRAY YANG TELAH TERSUSUN" << endl;
-	cout << "========================" endl;
+	cout << "========================" << endl;
 
-	for (int j = 0; j < n; j+_)
+	for (int j = 0; j < n; j++)
+	{
+		cout << arr[j] << endl; 
+
+	}
+	
+
 }
