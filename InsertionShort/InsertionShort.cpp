@@ -7,7 +7,7 @@ int n;       //membuat variable inputan n
 void input()
 {  // produk input
 	while (true)
-	{ 
+	{
 		cout << "memasukkan jumlah data pada array : ";
 		cin >> n;
 
@@ -23,3 +23,7 @@ void input()
 
 	}
 }
+cout << endl;                              // membuat jarak perbaris program
+cout << "======================" << endl;  // membuat tampilan susunan data element aray
+cout << "Masukan Element Aray"  << endl;
+cout << "======================" << endl;
